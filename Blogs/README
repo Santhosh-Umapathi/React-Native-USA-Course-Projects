@@ -1,0 +1,53 @@
+//MARK: Topics Covered
+
+- Export default can be used as direct declaration
+- Export const should be used with curly braces {} for declaration
+
+
+JSON-Blog-Server
+----------------
+npm run db
+npm run tunnel
+
+//------------------------------------------------------------------
+//MARK: Blog Form Component
+
+- Setting Default props for initial state to help create screen.
+- Passing initial state to edit Screen
+
+//------------------------------------------------------------------
+//MARK: Blog Context
+
+- .map (loop through all blogs and edit a blog)
+- .filter (to filter out/delete a blog)
+- Exporting Context, Provider - with reducer, actions, initial state
+- All actions declared and passed intp Custom Hooks
+- Reducer declared and passed into Custom Hooks
+- Initial state declared and passed into custom hooks
+- Business logic to make changes to API 
+
+//------------------------------------------------------------------
+//MARK: Create Data Context 
+(Custom Resusable Hook, Expects 3 args, return 1 object)
+
+- Resusable Context & Provider
+- Context.Provider passed to all children
+- Exporting default function to return Context, Provider
+- Send state and actions to children
+
+//------------------------------------------------------------------
+//MARK: Edit Screen
+
+- useContext to get global state and update global state.
+- .find to find the correct blog
+
+//------------------------------------------------------------------
+//MARK: Home Screen
+
+- useEffect with listener and cleanup to avoid memory leak
+- fetch all blog
+
+//------------------------------------------------------------------
+//MARK: Show Screen
+
+- Adding navigation to Header icon

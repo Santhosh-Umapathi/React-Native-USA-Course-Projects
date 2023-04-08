@@ -1,0 +1,36 @@
+//MARK: Topics Covered
+
+
+//------------------------------------------------------------------
+//MARK: Home Screen
+
+- Passing state & callback to setState to Child component, 
+- Filter method
+- Using custom hooks and extracting logic from hook.
+- Activity Indicator Loading
+
+//------------------------------------------------------------------
+//MARK: Search Bar Component
+
+- Receiving Callback functions as props
+
+//------------------------------------------------------------------
+//MARK: Results List Component
+
+- withNavigation to pass navigation prop to nested children component
+- wrap the funtional component with withNavigation.
+
+//------------------------------------------------------------------
+//MARK: Yelp API 
+
+- Preconfigured API file to resuse inside project
+- Exported as AXIOS object.
+- Headers with API Key set
+
+//------------------------------------------------------------------
+//MARK: Use Results Custom Hook
+
+- Extracting Business logic from Parent to child Hook
+- Exporting custom hook as array 
+- AXIOS get request
+- Use Effect to call API once

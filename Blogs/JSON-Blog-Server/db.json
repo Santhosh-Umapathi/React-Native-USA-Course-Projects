@@ -1,0 +1,14 @@
+{
+  "blogposts": [
+    {
+      "title": "Empire State building",
+      "content": "Tallest skyscrapper and world wonder",
+      "id": 1
+    },
+    {
+      "title": "New York City",
+      "content": "Most popular city in the world",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+Express API Server
+-------------------
+npm run dev
+
+Tracker Terminal
+----------------
+npm install
+yarn global add ngrok
+yarn global add exp
+ngrok http 3000
+
+//------------------------------------------------------------------
+//MARK: Topics Covered
+
+
+- Wrapper Component introduced to wrap its children with some default settings
+- const Wrapper = ({children}) =>{<View sty=10>{children}</View>}
+-Parent = <Wrapper>
+			<Text></Text>
+		</Wrapper>
+
+
+//------------------------------------------------------------------
+//MARK: App.js
+
+- Switch Navigator
+- Bottom Tab Navigator
+- Bottom Tab Icons
+
+//------------------------------------------------------------------
+//MARK: SignUp Screen
+
+- Navigation Events component from React-Navigation Library to handly onwillFocus || onwillblur || onDidFocus || onDidBlur
+
+
+//------------------------------------------------------------------
+//MARK: Map.js 
+
+- MapView, Polyline , circle
+- Setting initial regions for map view
+- setting circle props , polyline props 
+
+//------------------------------------------------------------------
+//MARK: Auth Context
+
+- Async Storage , setItem , getItem
+- custom navigation for outside React files
+- Business Logic
+
